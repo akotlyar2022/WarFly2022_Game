@@ -50,9 +50,7 @@ class PlayerPlane: SKSpriteNode {
         motionManager.startAccelerometerUpdates(to: OperationQueue.current!) { [unowned self] (data, error) in
             if let data = data {
                 let acceleration = data.acceleration
-                self.xAcceleration = CGFloat(acceleration.x) * 0.7 + self.xAcceleration * 0.3
-                print(self.xAcceleration)
-                
+                self.xAcceleration = CGFloat(acceleration.x) * 0.7 + self.xAcceleration * 0.3                
             }
         }
         
