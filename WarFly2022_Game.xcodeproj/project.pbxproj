@@ -23,6 +23,7 @@
 		FA934BFB2964CC1600D2D184 /* GreenPowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA934BFA2964CC1600D2D184 /* GreenPowerUp.atlas */; };
 		FA934BFD296B264900D2D184 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA934BFC296B264900D2D184 /* Enemy.swift */; };
 		FA934C02296B2DE300D2D184 /* Enemy_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA934C01296B2DE300D2D184 /* Enemy_1.atlas */; };
+		FA934C04296B3EFA00D2D184 /* Enemy_2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA934C03296B3EFA00D2D184 /* Enemy_2.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		FA934BFA2964CC1600D2D184 /* GreenPowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GreenPowerUp.atlas; sourceTree = "<group>"; };
 		FA934BFC296B264900D2D184 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		FA934C01296B2DE300D2D184 /* Enemy_1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_1.atlas; sourceTree = "<group>"; };
+		FA934C03296B3EFA00D2D184 /* Enemy_2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_2.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				FA934C01296B2DE300D2D184 /* Enemy_1.atlas */,
+				FA934C03296B3EFA00D2D184 /* Enemy_2.atlas */,
 				FA934BD5295E1C6800D2D184 /* AppDelegate.swift */,
 				FA934BDB295E1C6800D2D184 /* GameScene.swift */,
 				FA934BFC296B264900D2D184 /* Enemy.swift */,
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA934C04296B3EFA00D2D184 /* Enemy_2.atlas in Resources */,
 				FA934C02296B2DE300D2D184 /* Enemy_1.atlas in Resources */,
 				FA934BE1295E1C6800D2D184 /* Main.storyboard in Resources */,
 				FA934BFB2964CC1600D2D184 /* GreenPowerUp.atlas in Resources */,
