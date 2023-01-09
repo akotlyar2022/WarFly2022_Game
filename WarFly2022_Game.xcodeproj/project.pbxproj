@@ -29,6 +29,7 @@
 		FA9C5E00296C936D007E63A0 /* YellowAmmo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA9C5DFF296C936D007E63A0 /* YellowAmmo.atlas */; };
 		FA9C5E03296C950F007E63A0 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E02296C950F007E63A0 /* Shot.swift */; };
 		FA9C5E05296C9777007E63A0 /* YellowShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E04296C9777007E63A0 /* YellowShot.swift */; };
+		FA9C5E07296C9930007E63A0 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E06296C9930007E63A0 /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		FA9C5DFF296C936D007E63A0 /* YellowAmmo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = YellowAmmo.atlas; sourceTree = "<group>"; };
 		FA9C5E02296C950F007E63A0 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
 		FA9C5E04296C9777007E63A0 /* YellowShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShot.swift; sourceTree = "<group>"; };
+		FA9C5E06296C9930007E63A0 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				FA934BD5295E1C6800D2D184 /* AppDelegate.swift */,
 				FA9C5E01296C93F1007E63A0 /* Atlases */,
 				FA934BDB295E1C6800D2D184 /* GameScene.swift */,
+				FA9C5E06296C9930007E63A0 /* Assets.swift */,
 				FA9C5E02296C950F007E63A0 /* Shot.swift */,
 				FA9C5E04296C9777007E63A0 /* YellowShot.swift */,
 				FA934BFC296B264900D2D184 /* Enemy.swift */,
@@ -207,6 +210,7 @@
 				FA934C09296B67F600D2D184 /* BluePowerUp.swift in Sources */,
 				FA934BD6295E1C6800D2D184 /* AppDelegate.swift in Sources */,
 				FA934BF7296485D700D2D184 /* protocol GameBackgroundSpriteable + Extension.swift in Sources */,
+				FA9C5E07296C9930007E63A0 /* Assets.swift in Sources */,
 				FA934BFD296B264900D2D184 /* Enemy.swift in Sources */,
 				FA934C0B296B680800D2D184 /* GreenPowerUp.swift in Sources */,
 				FA934BEF295E32CE00D2D184 /* Island.swift in Sources */,
